@@ -163,7 +163,7 @@ secretblues-->
                         //});
 
                        </script>
-						<script src="http://www.emailmeform.com/builder/forms/jsform/NUMD9I1S4tiw51enoy5W" type="text/javascript"></script>
+						<!--script src="http://www.emailmeform.com/builder/forms/jsform/NUMD9I1S4tiw51enoy5W" type="text/javascript"></script-->
 
 						</article>
 
@@ -175,49 +175,28 @@ secretblues-->
 							<li>&copy; Design & developed by :- </li><li><a href="https://www.linkedin.com/in/sunilchowdhary" target="_blank">Sunil Chowdhary</a> </li>
 						</ul>
 					</div>
-		
-
-
-
-
-
-
-
-
 			</div>
 <!-- handling the emailmeform in below script -->
 <script>
 
 $('iframe').load( function() {
 	console.log("entered");
-
-
-
-
     $('iframe').contents().find("head")
       .append($("<style type='text/css'>#emf-form > #emf-form label, #emf-form > div,#emf-logo,#wrap-copyright,#outer-after-post #logo,#ssl-recommend{display:none!important;} #emf-div-field span{width:50%!important;} #emf-div-field #element_7,#emf-div- field #element_8{width:92%!important;} .highlight-field {background-color: rgb(250, 250, 250)!important;}	#emf-li-post-button input{-webkit-appearance: none;display: inline-block;background-color: #222222;color: #ffffff;border: 0;cursor: pointer;outline: 0;-moz-transition: background-color .25s ease-in-out;-webkit-transition: background-color .25s ease-in-out;
 -o-transition: background-color .25s ease-in-out;-ms-transition: background-color .25s ease-in-out;transition: background-color .25s ease-in-out;padding: 0.7em 1.5em 0.7em 1.5em;}
-
-		
-
 </style>"));
 
 
 $("#main").animate({
-												height: panels[activePanelId].outerHeight()
-											}, instant ? 0 : settings.resizeSpeed, 'swing', function() {
-											
-												// Fade in new active panel.
-													$footer.fadeTo(instant ? 0 : settings.fadeSpeed, 1.0);
-													panels[activePanelId].fadeIn(instant ? 0 : settings.fadeSpeed, function() {
-														
-														// Unlock.
-															isLocked = false;
-
-													});
-											});
-
-
+	height: panels[activePanelId].outerHeight()
+	}, instant ? 0 : settings.resizeSpeed, 'swing', function() {
+	// Fade in new active panel.
+	$footer.fadeTo(instant ? 0 : settings.fadeSpeed, 1.0);
+    panels[activePanelId].fadeIn(instant ? 0 : settings.fadeSpeed, function() {
+	// Unlock.
+	isLocked = false;
+    });
+	});
 });
 
 
