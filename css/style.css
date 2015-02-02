@@ -575,13 +575,12 @@ ul.social li a:hover span.facebook, ul.social li a:hover span.gPlus, ul.social l
 
 #SECTION_1 {
     color: rgb(21, 21, 21);
-    height: 489.9375px;
+    height: 100%;
     max-width: 2000px;
     text-decoration: none solid rgb(21, 21, 21);
     width: 743.875px;
     border: 0px none rgb(21, 21, 21);
     font: normal normal normal 14px Raleway, Arial, sans-serif;
-    margin: 66.859375px 45.96875px;
     outline: rgb(21, 21, 21) none 0px;
     padding: 25.0625px 0px;
 }/*#SECTION_1*/
