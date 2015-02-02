@@ -573,3 +573,60 @@ ul.social li a:hover span.facebook, ul.social li a:hover span.gPlus, ul.social l
     
 }
 
+#SECTION_1 {
+    color: rgb(21, 21, 21);
+    height: 489.9375px;
+    max-width: 2000px;
+    text-decoration: none solid rgb(21, 21, 21);
+    width: 743.875px;
+    border: 0px none rgb(21, 21, 21);
+    font: normal normal normal 14px Raleway, Arial, sans-serif;
+    margin: 66.859375px 45.96875px;
+    outline: rgb(21, 21, 21) none 0px;
+    padding: 25.0625px 0px;
+}/*#SECTION_1*/
+
+#H2_2 {
+    color: rgb(21, 21, 21);
+    text-decoration: none solid rgb(21, 21, 21);
+    width: 743.875px;
+    border: 0px none rgb(21, 21, 21);
+    font: italic normal normal 30px 'Crimson Text', Georgia, serif;
+    
+    outline: rgb(21, 21, 21) none 0px;
+}/*#H2_2*/
+
+
+#DIV_10 {
+    color: rgb(21, 21, 21);
+    height: 90px;
+    text-decoration: none solid rgb(21, 21, 21);
+    width: 743.875px;
+    border: 0px none rgb(21, 21, 21);
+    font: italic normal normal 16px 'Crimson Text', Georgia, serif;
+    margin: 49.599998474121094px 0px;
+    outline: rgb(21, 21, 21) none 0px;
+    transition: all 0.37s cubic-bezier(0.45, 0, 0.58, 1) 0s;
+}/*#DIV_10*/
+
+#A_11 {
+    color: rgb(21, 21, 21);
+    text-decoration: none solid rgb(21, 21, 21);
+    border-top: 0px none rgb(21, 21, 21);
+    border-right: 0px none rgb(21, 21, 21);
+    border-bottom: 1px solid rgb(21, 21, 21);
+    border-left: 0px none rgb(21, 21, 21);
+    font: normal normal normal 30px Raleway, Arial, sans-serif;
+    outline: rgb(21, 21, 21) none 0px;
+    transition: all 0.37s cubic-bezier(0.45, 0, 0.58, 1) 0s;
+}/*#A_11*/
+
+
+
+
+#DIV_10 a:hover{
+    color:rgb(169,250,255);
+}
+
+
+
