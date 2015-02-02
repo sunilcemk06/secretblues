@@ -619,6 +619,8 @@ ul.social li a:hover span.facebook, ul.social li a:hover span.gPlus, ul.social l
     font: normal normal normal 30px Raleway, Arial, sans-serif;
     outline: rgb(21, 21, 21) none 0px;
     transition: all 0.37s cubic-bezier(0.45, 0, 0.58, 1) 0s;
+    border: 1px solid #ffffff;
+    text-decoration: none !important;
 }/*#A_11*/
 
 
