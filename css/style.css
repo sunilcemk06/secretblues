@@ -645,24 +645,12 @@ font: normal normal normal 40px Raleway, Arial, sans-serif
 	box-sizing: border-box;
 }
 
-body {
-    background: #eee;
-    color: #444;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    height: auto !important;
-    height: 100%;
-    min-height: 100%;
-    text-rendering: optimizeLegibility;
-}
 
 div.wrapper {
   margin: 20px auto;
   width: 350px;
 }
-
+/*
 p {
   font-family: georgia;
   font-size: 1rem;
@@ -670,7 +658,7 @@ p {
   margin: 24px 0;
   text-align: center;
 }
-
+*/
 nav.vertical {
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0,0,0,.15);
