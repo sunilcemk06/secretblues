@@ -625,7 +625,10 @@ ul.social li a:hover span.facebook, ul.social li a:hover span.gPlus, ul.social l
 
 
 #DIV_10 a:hover{
-    color:rgb(169,250,255);
+color: transparent;
+background: -webkit-linear-gradient(transparent, transparent), url("/css/images/bg.jpg") repeat;
+-webkit-background-clip: text;
+font: normal normal normal 40px Raleway, Arial, sans-serif
 }
 
 
