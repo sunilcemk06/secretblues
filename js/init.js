@@ -264,12 +264,9 @@ function checkloadjscssfile(filename, filetype){
 }
 
 function showUrlInDialog(url){
-    var tag = $("<div></div>");
-    $.ajax({
-      url: url,
-      success: function(data) {
-        tag.html(data).dialog({modal: true}).dialog('open');
-      }
+	$('.content').bPopup({
+        contentContainer:'.content',
+        loadUrl: url; //Uses jQuery.load()
     });
   }
 
