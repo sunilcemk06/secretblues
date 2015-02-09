@@ -266,10 +266,7 @@ function checkloadjscssfile(filename, filetype){
 function showUrlInDialog(url){
 	$('#popup').bPopup({
         contentContainer:'.content',
-        loadUrl: url,
-        easing: 'easeOutBack', //uses jQuery easing plugin
-        speed: 450,
-        transition: 'slideDown'
+        loadUrl: url
         //transition:"slideDown",
 		//transitionClose:"slideUp" 
     });
