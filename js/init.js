@@ -269,12 +269,9 @@ function showUrlInDialog(url){
 	
 	$('#popup').bPopup({
         contentContainer:'.content',
-        loadUrl: url,
-        function(){
+        loadUrl: url},function(){
         	$(".ajaxloader").html();
-        	}
-		//transitionClose:"slideUp" 
-    });
+    	});
   }
 
 
