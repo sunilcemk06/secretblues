@@ -267,8 +267,11 @@ function showUrlInDialog(url){
 	$('#popup').bPopup({
         contentContainer:'.content',
         loadUrl: url,
-        transition:"slideDown",
-		transitionClose:"slideUp" 
+        easing: 'easeOutBack', //uses jQuery easing plugin
+        speed: 450,
+        transition: 'slideDown'
+        //transition:"slideDown",
+		//transitionClose:"slideUp" 
     });
   }
 
