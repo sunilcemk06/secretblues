@@ -264,6 +264,9 @@ function checkloadjscssfile(filename, filetype){
 }
 
 function showUrlInDialog(url){
+	
+	$(".content").html("<img src='images/ajax-loader.gif'/>");
+	
 	$('#popup').bPopup({
         contentContainer:'.content',
         loadUrl: url
