@@ -269,8 +269,8 @@ function showUrlInDialog(url){
 	
 	$('#popup').bPopup({
         contentContainer:'.content',
-        loadUrl: url
-        //transition:"slideDown",
+        loadUrl: url,
+        loadCallback: function(){ $(".content").html();}
 		//transitionClose:"slideUp" 
     });
   }
