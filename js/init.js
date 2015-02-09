@@ -270,7 +270,7 @@ function showUrlInDialog(url){
 	$('#popup').bPopup({
         contentContainer:'.content',
         loadUrl: url},function(){
-        	$(".ajaxloader").html();
+        	$(".ajaxloader").html("");
     	});
   }
 
