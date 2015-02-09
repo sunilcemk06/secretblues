@@ -12,13 +12,15 @@ secretblues-->
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		
-		<script src="js/jquery.min.js"></script>
-		<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://dinbror.dk/bpopup/assets/jquery.bpopup-0.9.4.min.js"></script>
+<script src="http://dinbror.dk/bpopup/assets/jquery.easing.1.3.js"></script>
+		
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
-		<script src="js/jquery.bpopup.min.js"></script>
+		
 		<noscript>
-		    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"/>
+		    <link rel="stylesheet" href="http://dinbror.dk/bpopup/assets/style.min.css"/>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
@@ -27,7 +29,7 @@ secretblues-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
-    <div id="popup2" style="left: 424.5px; top: 1803.5px; opacity: 1; display: block; height: 84px; width: auto; position: absolute; z-index: 9999;">
+    <div id="popup2" style="display:none!important;left: 424.5px; top: 1803.5px; opacity: 1; display: block; height: 84px; width: auto; position: absolute; z-index: 9999;">
         <span class="button b-close"><span>X</span></span>
         <div class="content" style="height: auto; width: auto;">
         <div class="b-ajax-wrapper" style="">
@@ -143,13 +145,6 @@ secretblues-->
 									</div>
 								</form> -->
 							
-
-     
-      
-							
-
-						
-                            
                        <script type="text/javascript">
 
                         //$(function(){
@@ -176,34 +171,5 @@ secretblues-->
 						</ul>
 					</div>
 			</div>
-<!-- handling the emailmeform in below script -->
-<script>
-
-$('iframe').load( function() {
-	console.log("entered");
-    $('iframe').contents().find("head")
-      .append($("<style type='text/css'>#emf-form > #emf-form label, #emf-form > div,#emf-logo,#wrap-copyright,#outer-after-post #logo,#ssl-recommend{display:none!important;} #emf-div-field span{width:50%!important;} #emf-div-field #element_7,#emf-div- field #element_8{width:92%!important;} .highlight-field {background-color: rgb(250, 250, 250)!important;}	#emf-li-post-button input{-webkit-appearance: none;display: inline-block;background-color: #222222;color: #ffffff;border: 0;cursor: pointer;outline: 0;-moz-transition: background-color .25s ease-in-out;-webkit-transition: background-color .25s ease-in-out;
--o-transition: background-color .25s ease-in-out;-ms-transition: background-color .25s ease-in-out;transition: background-color .25s ease-in-out;padding: 0.7em 1.5em 0.7em 1.5em;}
-</style>"));
-
-
-$("#main").animate({
-	height: panels[activePanelId].outerHeight()
-	}, instant ? 0 : settings.resizeSpeed, 'swing', function() {
-	// Fade in new active panel.
-	$footer.fadeTo(instant ? 0 : settings.fadeSpeed, 1.0);
-    panels[activePanelId].fadeIn(instant ? 0 : settings.fadeSpeed, function() {
-	// Unlock.
-	isLocked = false;
-    });
-	});
-});
-
-
-
-
-
-
-</script>
-	</body>
+</body>
 </html>
