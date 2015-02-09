@@ -266,7 +266,9 @@ function checkloadjscssfile(filename, filetype){
 function showUrlInDialog(url){
 	$('#popup').bPopup({
         contentContainer:'.content',
-        loadUrl: url
+        loadUrl: url,
+        transition:"slideDown",
+		transitionClose:"slideUp" 
     });
   }
 
